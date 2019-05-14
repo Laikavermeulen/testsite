@@ -1,0 +1,16 @@
+body {
+	background-color: white;
+}
+
+h1, p, main p {
+	color: black;
+}
+
+nav a:nth-child(2) {
+
+	color: white;
+}
+
+nav a:nth-child(1) {
+	color: black;
+}

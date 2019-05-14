@@ -1,0 +1,82 @@
+body {
+	background-color: #363534;
+	padding: 3rem;
+	font-family: helvetica;
+}
+
+h1 {
+	font-size: 3rem;
+	color: white;
+	margin-bottom: 3rem;
+}
+
+p {
+	font-size: 2rem;
+	line-height: 3rem;
+	color: white;
+}
+main p {
+	font-size: 1.5rem;
+	line-height: 2rem;
+	color: white;
+}
+
+.menu {
+	position: fixed;
+	top: 3rem;
+	right: 3rem;
+	border: 3px solid #669660;
+}
+
+main img {
+  max-width: 40rem;
+  margin-bottom: 1rem;
+  margin-top: 2rem;
+}
+
+.onzichtbaar {
+	display: none;
+	flex-direction: column;
+	background-color: #669660;
+}
+
+main {
+	height: 100vw;
+}
+
+nav a {
+	display: block;
+	flex-direction: row;
+	text-decoration: none;
+	color: black;
+	font-size: 2.25rem;
+	margin: 1rem;
+}
+
+nav a:nth-child(1) {
+	color: white;
+}
+
+main h2 {
+  color: #669660;
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+  margin-top: 2rem;
+}
+
+@media (min-width: 1050px) {
+
+		nav {
+			background-color: #669660;
+			position: absolute;
+			width: 20vw;
+			height: 100vh;
+			top: 0;
+			right: 0;
+			padding-top: 5rem;
+			display: flex;
+		}
+
+		nav a {
+			margin-left: 2rem;
+		}
